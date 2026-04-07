@@ -33,6 +33,33 @@
 </p>
 
 ---
+## 🚀 Featured Projects
+### 1) LinkLogMate (LLM) — GitHub 연동 AI 협업 관리 플랫폼
+- Backend: **[LLMSpring](https://github.com/sgn08062/LLMSpring)**
+- Frontend: **[LLMReact](https://github.com/sgn08062/LLMReact)**
+- Keyword: GitHub OAuth · JWT · MySQL · Docker · WebSocket(STOMP) · SSE · Gemini API
+
+### 🧑‍💻 My Contribution
+
+#### 🔧 Backend
+- 회원가입 및 로그인 기능 구현 (비밀번호 단방향 암호화 적용)
+- JWT 기반 인증/인가 시스템 구축 (Access Token + Refresh Token)
+- Spring Security + GitHub OAuth 연동으로 소셜 로그인 구현
+- Gemini API 연동을 통한 데이터 요약 및 자동 분류 기능 개발
+- AWS S3를 활용한 이미지 및 텍스트 파일 업로드/관리 기능 구현
+- Toast UI Editor 적용으로 사용자 친화적인 작성 환경 구성
+
+#### 🎨 Frontend
+- API 통신 구조 개선: fetch 래핑을 통해 모든 요청에 JWT 자동 포함
+- 인증 상태 기반 라우팅 제어 구현 (AuthHandler.js)
+  - 미인증 사용자 접근 차단 및 로그인 페이지 리다이렉트
+
+#### 🚀 Infra / Deployment
+- Docker 기반 백엔드/프론트엔드 컨테이너 분리 및 환경 일관성 확보
+- AWS EC2 배포 및 Docker Hub 연동으로 빠른 배포 환경 구축
+- 이미지 교체 및 재배포 자동화로 서비스 다운타임 최소화
+
+---
 
 ## 🧑‍💻 Contact me
 
@@ -41,7 +68,10 @@
 </a>
 
 ---
+## 🎓 Education & Certifications
+한국공학대학교(컴퓨터공학) | 2020.03 – 2026.02 | GPA 4.07/4.5
+정보처리기사 (2025.09)
+SQLD (2025.12)
 
 ## 🏅 Stats
-
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=sgn08062&show_icons=true&theme=highcontrast)
+-->
